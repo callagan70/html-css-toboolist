@@ -1,11 +1,13 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 header > div {
     padding: 10px;}
+    
+header{
+    background-color: white;}
 
 .logo{
     height: 50px;
@@ -16,21 +18,39 @@ header > div {
     vertical-align: middle;
     display: inline-block;}
 
-main{
-    background-color: hsl(199, 54%, 90%);
-}
-.container{
-    background-color: white;}
+body{
+    background-color: hsl(199, 54%, 90%);}
 
-,btb{
-    background-color: turquoise;}
+.container{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;}
+    
+
+.todo-top{
+    padding: 25px;
+    margin-left: 10px;}
+
+.btb{
+    background-color: rgb(64, 192, 224);}
+
 .btw{
     background-color: white;}
 
 .buttom{
-    border: 1px solid red;
+    border: 1px solid rgb(19, 18, 18);
     padding: 10px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 10px;}
+
+    /* utility */
+li{
+    list-style: none;}
+
+strong{
+    font-size: 30px;}
+
+.todolist{
+    padding: 20px 30px;
 }
-    
