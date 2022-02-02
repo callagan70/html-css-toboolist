@@ -56,12 +56,74 @@ strong{
 .check-yes::before{
     content: "\2713";
     color: green;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
     border-radius: 50%;
     border-color: green;
+    display: inline-block;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
 }
 .check-no::before{
     content: "\2717";
-    color: red
+    color: rgb(241, 21, 32);
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+    border-radius: 50%;
+    border-color: rgb(241, 21, 32);
+    display: inline-block;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
 }
+
+.tag-lightblue{
+    background-color: rgb(64, 192, 224);
+    height: 30px;
+    padding: 3px;
+    border: 1px solid rgb(64, 192, 224);
+    margin-left: 10px;
+    border-radius: 10px;}
+
+.tag-violet{
+    background-color: violet;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid violet;
+    margin-left: 10px;
+    border-radius: 10px;}
+
+.tag-green{
+    background-color: lightgreen;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid lightgreen;
+    margin-left: 10px;
+    border-radius: 10px;}
+
+.tag-orange{
+    background-color: orange;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid orange;
+    margin-left: 10px;
+    border-radius: 10px;}
+
+.tag-purple{
+    background-color: purple;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid purple;
+    margin-left: 10px;
+    border-radius: 10px;}
+
+.tag-sand{
+    background-color: #f0bf76;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid #f0bf76;
+    margin-left: 10px;
+    border-radius: 10px;}
